@@ -26,26 +26,31 @@ First, ensure you have [Node.js](https://nodejs.org/) installed on your machine.
 All the core UI designs are located in the `src/components/` directory. Each file is a standalone, fully-functional module demonstrating specific React patterns and modern UI design.
 
 ### 1. `dashboard.jsx` (DataOps Observatory)
+![Dashboard](https://github.com/Pu5hk4r/Prod-FrontEnd-Design/blob/main/Assets/Dashboard.png)
 A highly complex, real-time data monitoring dashboard built with `recharts`.
 - Features live ticker bars, KPI metric cards with trends, and dynamic charts.
 - Includes three distinct tabs: **Data Engineering** (throughput & latency), **Analytics** (funnels & traffic sources), and **ML Monitoring** (model performance & feature drift).
 
 ### 2. `debounce_search.jsx`
+![debounce_search](https://github.com/Pu5hk4r/Prod-FrontEnd-Design/blob/main/Assets/Debounce_Search.png)
 A masterclass implementation of debounced search inputs.
 - Contains custom hooks: `useDebounce`, `useDebouncedCallback`, and a full `useSearchWithDebounce`.
 - Demonstrates handling async API requests, aborting stale requests (AbortController), preventing race conditions, and managing local search history.
 
 ### 3. `modal_dialog.jsx`
+![modal_dialog](https://github.com/Pu5hk4r/Prod-FrontEnd-Design/blob/main/Assets/Modal_Dialog.png)
 A robust modal and dialog window system.
 - Showcases custom, accessible modal overlays with smooth entry/exit animations.
 - Implements focus trapping, click-outside-to-close behavior, and keyboard accessibility (Escape to close).
 
 ### 4. `toast_notifications.jsx`
+![toast_notification](https://github.com/Pu5hk4r/Prod-FrontEnd-Design/blob/main/Assets/Toast%20notification.png)
 A beautiful, non-blocking toast notification system.
 - Demonstrates how to manage global toast state (likely via Context or custom reducers).
 - Features auto-dismiss timers, progress bars, interactive closing, and different severity levels (success, error, warning, info).
 
 ### 5. `scroll_templates.jsx`
+![scroll_templates](https://github.com/Pu5hk4r/Prod-FrontEnd-Design/blob/main/Assets/Toast%20notification.png)
 Advanced scroll-based interactions and templates.
 - Contains implementations for scroll-spy navigation, infinite scrolling lists, or animated scroll reveals.
 - Great for building modern landing pages that react as the user scrolls down the page.
